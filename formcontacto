@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" type="image/x-icon" href="/favicon.png">
+        <title>Contactar Sharon Nuñez</title>
+    </head>
+    <body>
+        <a href="#top">Inicio</a>
+        <a href="" target="_blank"> Contacto </a>
+        <h1>Contacto</h1>
+                <h3>¡Escríbeme si me necesitas!</h3>
+                <br/>
+                <hr size="1"/>
+                <form action="" method="get">
+                    <label for="name">¿Quién eres?:</label>
+                    <br>
+                    <input type="text" name="name" id="name" required>
+                    <br/>
+                    <label for="email"> Dame tu email para que pueda contestarte: </label>
+                    <br>
+                    <input type="text" name="email" id="email" required>
+                    <br/>
+                    <label for="cuentame">Cuéntame, soy todo oídos:</label>
+                    <br>
+                    <textarea type="text" rows="10" cols="50" name="cuentame" id="cuentame" required></textarea>
+                    <br/>
+                    <input type="submit" value="Enviar">
+                </form>
+    </body>
+</html>
