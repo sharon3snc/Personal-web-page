@@ -12,7 +12,9 @@
                 <h3>¡Escríbeme si me necesitas!</h3>
                 <br/>
                 <hr size="1"/>
-                <form action="" method="get">
+                <form method="post"
+                    target="print_popup"
+                     action="/destino-fin.php">
                     <label for="name">¿Quién eres?:</label>
                     <br>
                     <input type="text" name="name" id="name" required>
