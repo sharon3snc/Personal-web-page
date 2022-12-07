@@ -40,15 +40,12 @@
             action="/destino-fin.php">
 
             <label for="name">¿Quién eres?:</label>
-            <br>
             <input type="text" name="name" id="name" required>
             <br/>
             <label for="email"> Dame tu email para que pueda contestarte: </label>
-            <br>
             <input type="text" name="email" id="email" required>
             <br/>
             <label for="cuentame">Cuéntame, soy todo oídos:</label>
-            <br>
             <textarea type="text" rows="10" cols="50" name="cuentame" id="cuentame" required></textarea>
             <br/>
             <input type="submit" value="Enviar">
