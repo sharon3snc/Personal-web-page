@@ -1,6 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body{
+  background-color: #d9c9ba; 
+  color: #1a1a1a; 
+  font-family: 'Montserrat', sans-serif;
+}
+
 p {
     font-size: 16px;
   }
   .fechas {
     font-size: 14px;
   }
+
+ul{
+  display: flex;
+  flex-direction: row;
+  Justify-content: space-between;
+  gap: 50px;
+  list-style: none;
+}
+
+li:hover{
+font-weight: bold;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  Justify-content: space-between;
+  align-items: baseline;
+  align-content: center;
+  margin: 0px 0px;   
+}
+
+.container{
+  display:flex;
+  flex-direction:row;
+  gap: 0px;
+  Justify-content: space-between;
+  align-items: center;
+  align-content: space-between;
+  margin: 20px;
+  
+}
