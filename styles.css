@@ -4,7 +4,7 @@ body{
   background-color: #e4e9f2; 
   color: #1a1a1a; 
   font-family: 'Montserrat', sans-serif;
-  margin:0px;
+  margin:2px 2px 2px 2px;
 }
 
 p {
@@ -41,6 +41,7 @@ header{
 img{
 width:330px;
 object-fit:contain;
+margin: 2px 2px 2px 0px;
 }
 
 .nombre{
@@ -63,17 +64,16 @@ text-decoration:none;
 .container{
   display:flex;
   flex-direction:row;
-  gap: 0px;
+  gap: 20px;
   Justify-content: flex-start;
   align-items: center;
   align-content: stretch;
-  flex-wrap: wrap;
 }
 
 .presen{
-  margin-left: 20px;
-  width:60%;
   text-align: justify ;
+  border: 2px #2E3940;
+  margin-right: 10px;
 }
 
 hr{
