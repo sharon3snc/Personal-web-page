@@ -98,6 +98,30 @@ background-color: #2E3940;
   color:whitesmoke 
 }
 
+.experiencia{
+
+}
+.exp{
+  color:#bf9c8f;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 20px 20px 10px 10px;
+}
+.ue{
+  display:flex;
+  flex-direction: row;
+  Justify-content: start;
+  justify-items: start;
+  justify-self:start;
+  align-items: flex-start;
+  align-content: flex-start;
+  margin-bottom: 10px;
+  box-shadow: 1px 1px 1px 1px #2E3940;
+  padding: 10px 10px;
+}
+
+
+
 footer{
   padding: 10px 20px;
   background-color:#2e3940;
