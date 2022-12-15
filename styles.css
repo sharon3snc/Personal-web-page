@@ -26,7 +26,7 @@ font-weight: bold;
 }
 
 header{
-  display: flex;
+    display: flex;
   flex-direction: row;
   Justify-content: space-between;
   align-items: baseline;
@@ -50,14 +50,15 @@ text-decoration:none;
   display:flex;
   flex-direction:row;
   gap: 0px;
-  Justify-content: space-between;
+  Justify-content: flex-start;
   align-items: center;
-  align-content: space-between;
-  
+  align-content: stretch;
+  flex-wrap: wrap;
 }
 
 .presen{
-  margin-right: 20px;
+  margin-left: 20px;
+  width:60%;
 }
 
 hr{
@@ -67,7 +68,7 @@ background-color: #2E3940;
 
 .estudios{
   background-color:#2E3940;
-  padding: 10px 20px;
+  padding: 5px 20px;
 }
 
 .fechas{
