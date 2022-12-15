@@ -4,6 +4,7 @@ body{
   background-color: #e4e9f2; 
   color: #1a1a1a; 
   font-family: 'Montserrat', sans-serif;
+  margin:0px;
 }
 
 p {
@@ -38,8 +39,8 @@ header{
 }
 
 img{
-width:320px;
-object-fit:cover;
+width:330px;
+object-fit:contain;
 }
 
 .nombre{
@@ -118,6 +119,7 @@ background-color: #2E3940;
   margin-bottom: 10px;
   box-shadow: 1px 1px 1px 1px #2E3940;
   padding: 10px 10px;
+  margin: 5px;
 }
 
 
