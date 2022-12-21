@@ -4,7 +4,7 @@ body{
   background-color: #e4e9f2; 
   color: #1a1a1a; 
   font-family: 'Montserrat', sans-serif;
-  margin:2px 2px 2px 2px;
+  margin: 0px 0px 0px 0px;
 }
 
 p {
@@ -68,6 +68,7 @@ text-decoration:none;
   Justify-content: flex-start;
   align-items: center;
   align-content: stretch;
+  margin-right:20px;
 }
 
 .presen{
