@@ -1,5 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
+::-webkit-scrollbar {
+  width: 5px;
+  background: #e4e9f2;
+}
+
+::-webkit-scrollbar-track {
+  background: #e4e9f2; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2e3940; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #bf9c8f; 
+}
+
 body{
   background-color: #e4e9f2; 
   color: #1a1a1a; 
@@ -36,6 +53,13 @@ header{
   padding-left: 20px;
   color:whitesmoke;
   height:fit-content;
+  position:fixed;
+  top:0;
+  width:100%;
+}
+
+main{
+  margin-top: 52px;
 }
 
 img{
